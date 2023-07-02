@@ -46,8 +46,7 @@ body {
     margin: 0;  
     padding: 0;
     width: 1440px;
-    font-family: "Roboto", sans-serif;
-}
+   }
   
 a {
     text-decoration: none;
@@ -58,8 +57,7 @@ address {
 header {
     border-bottom: 1px solid var(--primary-accent-color);
     background-color: var(--white);
-    margin: 0;
-   }
+}
 .header-logo {
     font-family: var(--title-font);
     font-size: 18px;
