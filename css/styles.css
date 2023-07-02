@@ -71,17 +71,14 @@ header {
     color: var(--primary-brand-color);    
 }
 .header-logo-studio {
-    color: var(--primary-black-color)
+    color: var(--primary-black-color);
 }
 
-.nav-menu {
+.nav-menu-studio, .nav-menu-portfolio, .nav-menu-contacts {
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 0.32px;
-}
-
-.address-menu-list {
-    letter-spacing: 0.32px;
+    color: var(--primary-black-color);
 }
 
 .section-studio-1 {
@@ -127,7 +124,7 @@ footer {
 .footer-text {
     color: var(--cloud);
 }
-.button-item {
+.button-first, .button-item {
     border-radius: 4px;
     background-color: var(--cloud);
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
@@ -142,16 +139,7 @@ footer {
 }
 .button-first {
     background-color: var(--pressed-state-color);
-    border-radius: 4px;
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.64px;
-    padding: 12px 24px;
     color: var(--white);
-    border: 1px solid var(--primary-accent-color);
-    cursor: pointer;
 }
 .nav-menu-contacts:hover,
 .nav-menu-contacts:focus {
