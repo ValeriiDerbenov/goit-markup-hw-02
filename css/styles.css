@@ -1,0 +1,124 @@
+:root {
+    --primary-font: 'Roboto', sans-serif;
+    --title-font: 'Raleway', sans-serif;
+    --primary-black-color: #2E2F42;
+    --primary-white-color: #FFFFFF;
+    --primary-brand-color: #4D5AE5;
+    --pressed-state-color: #404BBF;
+    --body-text-color: #434455;
+    --helper-text-color: #8E8F99;
+    --primary-success-color: #31D0AA;
+    --primary-accent-color: #E7E9FC;
+    --secondary-accent-color: #0288d1;
+    --active-link-color: #f44336;
+    --white: #FFF;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+h2 {
+    color: var(--navyblue, #2E2F42);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+p {
+  margin: 0;
+  }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+  body {
+    font-family: var(--primary-font);
+    color: var(--primary-black-color);
+    background-color: var(--primary-white-color);
+    margin: 0;  
+    width: 1440px;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+address {
+    font-style: normal;
+}
+header {
+    border-bottom: 1px solid var(--primary-accent-color);
+    background-color: var(--white);
+    margin: 0;
+   }
+.header-logo {
+    font-family: var(--title-font);
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+.header-logo-web {
+    color: var(--primary-brand-color);    
+}
+.header-logo-studio {
+    color: var(--primary-black-color)
+}
+
+.nav-menu {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.32px;
+}
+
+.address-menu-list {
+       letter-spacing: 0.32px;
+}
+
+.section-studio-1 {
+    width: 1440px;
+    height: 600px;
+    background-color: var(--primary-black-color);
+}
+h1 {
+    width: 496px;
+    color: var(--white);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1.12px;
+}
+.order-service {
+    padding: 16px 32px;
+    border-radius: 4px;
+    background: var(--primary-brand-color);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: var(--primary-white-color);
+    justify-content: center;
+    cursor: pointer;
+}
+h3 {
+    color: var(--primary-black-color);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+p {
+    color: var(--body-text-color);
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+footer {
+    margin: 0;
+    padding: 0;
+}
+ 

@@ -3,21 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WebStudio</title>  
+    <title>WebStudio</title> 
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:ital,wght@0,400;0,500;0,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     
     <header>        
         <nav>
-            <a href="./index.html">WebStudio</a>
-            <ul>               
-                <li><a href="/">Studio</a></li>
-                <li><a href="/">Portfolio</a></li>
-                <li><a href="/">Contacts</a></li>
+            <a href="./index.html" class="header-logo">
+                <span class="header-logo-web">Web</span>
+                <span class="header-logo-studio">Studio</span>
+            </a>
+            <ul class="nav-menu">               
+                <li><a class="nav-menu-studio" href="./index.html">Studio</a></li>
+                <li><a class="nav-menu-portfolio" href="./portfolio.html">Portfolio</a></li>
+                <li><a class="nav-menu-contacts" href="/">Contacts</a></li>
             </ul>
         </nav>
-        <address>
-            <ul>
+        <address class="address-menu">
+            <ul class="address-menu-list">
                 <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                 <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
             </ul>
@@ -25,13 +32,13 @@
     </header>
    
     <main>
-        <section>
+        <section class="section-studio-1">
             <h1>Effective Solutions for Your Business</h1>
-            <button type="button">Order Service</button>
+            <button class="order-service" type="button">Order Service</button>
         </section>
 
-        <section>
-            <h2>Our goal</h2>
+        <section class="section-studio-2">
+            <h2 class="unvisible">Our goal</h2>
             <ul>
                 <li>
                     <h3>Strategy</h3>
@@ -52,53 +59,41 @@
             </ul>
         </section>
 
-        <section>
+        <section class="section-studio-3">
             <h2>What are we doing</h2>            
             <ul>
                 <li>
-                    <img src="./images/img-1.jpg" width="360" alt="PC Screen">
+                    <img src="./images/studio-computer-1.jpg" width="360" alt="PC Screen">
                 </li>
                 <li>
-                    <img src="./images/img-2.jpg" width="360" alt="Phone">
+                    <img src="./images/studio-phonescreen-2.jpg" width="360" alt="Phone">
                 </li>
                 <li>
-                    <img src="./images/img-3.jpg" width="360" alt="Phone and Notebook">
+                    <img src="./images/studio-phone-comp-3.jpg" width="360" alt="Phone and Notebook">
                 </li>
             </ul>            
         </section>
 
-        <section>
+        <section class="section-studio-4">
             <h2>Our Team</h2>
             <ul>
                 <li>
-                    <img src="./images/team-1.jpg" 
-                    alt="Mark Guerrero" 
-                    width="264"
-                    >
+                    <img src="./images/studio-team-mark.jpg" alt="Mark Guerrero" width="264">
                     <h3>Mark Guerrero</h3>
                     <p>Product Designer</p>
                 </li>
                 <li>
-                    <img src="./images/team-2.jpg" 
-                    alt="Tom Ford" 
-                    width="264"
-                    >
+                    <img src="./images/studio-team-tom.jpg" alt="Tom Ford" width="264">
                     <h3>Tom Ford</h3>
                     <p>Frontend Developer</p>
                 </li>
                 <li>
-                    <img src="./images/team-3.jpg" 
-                    alt="Camila Garcia" 
-                    width="264"
-                    >
+                    <img src="./images/studio-team-camila.jpg" alt="Camila Garcia" width="264">
                     <h3>Camila Garcia</h3>
                     <p>Marketing</p>
                 </li>
                 <li>
-                    <img src="./images/team-4.jpg" 
-                    alt="Daniel Wilson" 
-                    width="264"
-                    >
+                    <img src="./images/studio-team-daniel.jpg" alt="Daniel Wilson" width="264">
                     <h3>Daniel Wilson</h3>
                     <p>UI Designer</p>
                 </li>
@@ -107,7 +102,10 @@
     </main>
 
     <footer>
-        <a href="./index.html">WebStudio</a>
+        <a href="./index.html" class="header-logo">
+            <span class="header-logo-web">Web</span>
+            <span class="header-logo-studio">Studio</span>
+        </a>
         <p>Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p> 
     </footer>
 
