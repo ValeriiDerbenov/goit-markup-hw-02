@@ -63,9 +63,9 @@ header {
 }
 
 .header-logo-studio {
-    color: var(--primar y-black-color);
+    color: var(--primary-black-color);
 }
-.nav-menu:list {
+.nav-menu {
     list-style: none;
 }
 
@@ -140,13 +140,13 @@ p {
 .nav-menu-contacts:focus {
     color: var(--pressed-state-color);
 }
-.button-item: {
+.button-item {
     list-style: none;
 }
 .button-first:link {
     text-decoration: none;    
 }
-.portfolio-job-projects: {
+.portfolio-job-projects {
     list-style: none; 
 }
 .portfolio-job-projects-item:link {
