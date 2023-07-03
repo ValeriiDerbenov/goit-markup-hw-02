@@ -14,11 +14,6 @@
     --white: #FFF;
     --cloud: #F4F4FD;
 }
-h1,
-h2,
-h3 {
-  margin: 0;
-}
 
 h2 {
     color: var(--primary-black-color);
@@ -46,7 +41,6 @@ address {
     font-style: normal;
 }
 header {
-    border-bottom: 1px solid var(--primary-accent-color);
     background-color: var(--white);
 }
 .header-logo {
@@ -65,17 +59,22 @@ header {
 .header-logo-studio {
     color: var(--primary-black-color);
 }
-.nav-menu {
+.nav-menu,
+.section-studio-list,
+.portfolio-buttons-list,
+.portfolio-job-projects-list,
+.button-item,
+.portfolio-job-projects {
     list-style: none;
 }
-
-.nav-menu-studio, .nav-menu-portfolio, .nav-menu-contacts {
+.nav-menu-studio, 
+.nav-menu-portfolio, 
+.nav-menu-contacts {
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 0.32px;
     color: var(--primary-black-color);
 }
-
 .section-studio-1 {
     background-color: var(--primary-black-color);
 }
@@ -85,6 +84,7 @@ h1 {
     font-weight: 700;
     line-height: 60px;
     letter-spacing: 1.12px;
+    line-height: 1.07;
 }
 .order-service {
     background: var(--primary-brand-color);
@@ -92,35 +92,41 @@ h1 {
     cursor: pointer;
     border: none;
 }
-h3 {
+.section-studio-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--primary-black-color);
+}
+.section-studio-list-item,
+.section-studio-list-name {
     color: var(--primary-black-color);
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
 }
-p {
+.section-studio-list-text,
+.section-studio-list-speciality {
     color: var(--body-text-color);
     font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.32px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
-
-.portfolio-buttons-list {
-    list-style: none;
-}
-.button-first {
+.portfolio-button-first {
     background-color: var(--cloud);
     color: var(--primary-brand-color);
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px;
     letter-spacing: 0.04em;
     line-height: 1.5;
     border: 1px solid var(--primary-accent-color);
     cursor: pointer;
-   }
-.button-item {
+}
+.portfolio-button-item {
     background-color: var(--cloud);
     font-size: 16px;
     font-weight: 500;
@@ -140,19 +146,12 @@ p {
 .nav-menu-contacts:focus {
     color: var(--pressed-state-color);
 }
-.button-item {
-    list-style: none;
-}
-.button-first:link {
+.button-first,
+.portfolio-job-projects-item,
+.footer-logo:link {
     text-decoration: none;    
 }
-.portfolio-job-projects {
-    list-style: none; 
-}
-.portfolio-job-projects-item:link {
-    text-decoration: none;   
-}
-.portfolio-job-projects-name {
+ .portfolio-job-projects-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -165,7 +164,6 @@ p {
     letter-spacing: 0.02em;
     color: var(--body-text-color);
 }
-
 .footer {
     background-color: var(--primary-black-color);
 }
@@ -183,7 +181,4 @@ p {
 }
 .footer-text {
     color: var(--cloud);
-}
-.footer-logo:link {
-    text-decoration: none;
 }
