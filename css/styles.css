@@ -52,13 +52,7 @@ header {
     line-height: 1.17;
     color: var(--primary-brand-color);
 }
-.header-logo:link {
-    text-decoration: none;
-}
-.portfolio-button-item,
-.portfolio-buttons-first,
-.portfolio-job-projects-item,
-.footer-logo:link {
+.link {
     text-decoration: none;    
 }
 .webstudio-title {
@@ -71,16 +65,7 @@ header {
 .header-logo-studio {
     color: var(--primary-black-color);
 }
-.nav-menu {
-    list-style: none;
-}
-.section-studio-list,
-.portfolio-buttons-list,
-.portfolio-job-projects-list,
-.button-item,
-.portfolio-job-projects,
-.portfolio-name,
-.webstudio-title {
+.list {
     list-style: none;
 }
 .nav-menu-studio, 
@@ -114,8 +99,14 @@ header {
 .address-menu-list-item:focus {
     color: var(--pressed-state-color);
 }
-.section-studio-1 {
+.section-studio-first {
     background-color: var(--primary-black-color);
+}
+.section-studio-fourth {
+    background-color: var(--cloud);
+}
+.section-studio-list-name {
+    background-color: var(--primary-white-color);
 }
 .order-service {
     background: var(--primary-brand-color);
@@ -147,34 +138,22 @@ header {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.portfolio-buttons-first {
-    background-color: var(--cloud);
-    color: var(--primary-brand-color);
-    font-size: 16px;
-    font-weight: 500;
-    letter-spacing: 0.04em;
-    line-height: 1.5;
-    border: 1px solid var(--primary-accent-color);
-    cursor: pointer;
-}
+.portfolio-buttons-first,
 .portfolio-button-item {
+    font-family: var(--primary-font);
     background-color: var(--cloud);
+    color: var(--primary-brand-color);
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px;
     letter-spacing: 0.04em;
     line-height: 1.5;
-    border: 1px solid var(--primary-accent-color);
     cursor: pointer;
-    color: var(--primary-brand-color);
 }
 .portfolio-buttons-first:hover,
 .portfolio-buttons-first:focus {
     color: var(--primary-white-color);
     background-color: var(--pressed-state-color);
 }
-
-
  .portfolio-job-projects-name {
     font-weight: 500;
     font-size: 20px;
