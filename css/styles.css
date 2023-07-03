@@ -52,10 +52,20 @@ header {
     line-height: 1.17;
     color: var(--primary-brand-color);
 }
-.header-logo:link {
-    text-decoration: none;
+.header-logo,
+.portfolio-button-item,
+.portfolio-buttons-first,
+.portfolio-job-projects-item,
+.footer-logo:link {
+    text-decoration: none;    
 }
-
+.webstudio-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--primary-white-color)
+}
 .header-logo-studio {
     color: var(--primary-black-color);
 }
@@ -64,7 +74,9 @@ header {
 .portfolio-buttons-list,
 .portfolio-job-projects-list,
 .button-item,
-.portfolio-job-projects {
+.portfolio-job-projects,
+.portfolio-name,
+.webstudio-title {
     list-style: none;
 }
 .nav-menu-studio, 
@@ -77,14 +89,6 @@ header {
 }
 .section-studio-1 {
     background-color: var(--primary-black-color);
-}
-h1 {
-    color: var(--white);
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 60px;
-    letter-spacing: 1.12px;
-    line-height: 1.07;
 }
 .order-service {
     background: var(--primary-brand-color);
@@ -116,7 +120,7 @@ h1 {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.portfolio-button-first {
+.portfolio-buttons-first {
     background-color: var(--cloud);
     color: var(--primary-brand-color);
     font-size: 16px;
@@ -137,8 +141,8 @@ h1 {
     cursor: pointer;
     color: var(--primary-brand-color);
 }
-.button-first:hover,
-.button-first:focus {
+.portfolio-buttons-first:hover,
+.portfolio-buttons-first:focus {
     color: var(--primary-white-color);
     background-color: var(--pressed-state-color);
 }
@@ -146,11 +150,7 @@ h1 {
 .nav-menu-contacts:focus {
     color: var(--pressed-state-color);
 }
-.button-first,
-.portfolio-job-projects-item,
-.footer-logo:link {
-    text-decoration: none;    
-}
+
  .portfolio-job-projects-name {
     font-weight: 500;
     font-size: 20px;
