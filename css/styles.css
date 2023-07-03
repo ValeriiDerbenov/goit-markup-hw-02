@@ -106,7 +106,7 @@ p {
     letter-spacing: 0.32px;
 }
 
-.portfolio-buttons-list:list {
+.portfolio-buttons-list {
     list-style: none;
 }
 .button-first {
@@ -140,13 +140,13 @@ p {
 .nav-menu-contacts:focus {
     color: var(--pressed-state-color);
 }
-.button-item:list {
+.button-item: {
     list-style: none;
 }
 .button-first:link {
     text-decoration: none;    
 }
-.portfolio-job-projects:list {
+.portfolio-job-projects: {
     list-style: none; 
 }
 .portfolio-job-projects-item:link {
@@ -168,6 +168,15 @@ p {
 
 .footer {
     background-color: var(--primary-black-color);
+}
+.footer-logo {
+    font-family: var(--title-font);
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    line-height: 1.17;
+    color: var(--primary-brand-color);   
 }
 .footer-logo-studio {
     color: var(--cloud);
