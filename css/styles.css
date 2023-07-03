@@ -47,12 +47,14 @@ header {
     font-family: var(--title-font);
     font-size: 18px;
     font-weight: 800;
-    letter-spacing: 0.54px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     line-height: 1.17;
     color: var(--primary-brand-color);
 }
-.header-logo,
+.header-logo:link {
+    text-decoration: none;
+}
 .portfolio-button-item,
 .portfolio-buttons-first,
 .portfolio-job-projects-item,
@@ -69,7 +71,9 @@ header {
 .header-logo-studio {
     color: var(--primary-black-color);
 }
-.nav-menu,
+.nav-menu {
+    list-style: none;
+}
 .section-studio-list,
 .portfolio-buttons-list,
 .portfolio-job-projects-list,
@@ -84,8 +88,31 @@ header {
 .nav-menu-contacts {
     font-size: 16px;
     font-weight: 500;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
     color: var(--primary-black-color);
+}
+.nav-menu-studio:hover,
+.nav-menu-studio:focus {
+    color: var(--pressed-state-color);
+}
+.nav-menu-portfolio:hover,
+.nav-menu-portfolio:focus {
+    color: var(--pressed-state-color);
+}
+.nav-menu-contacts:hover,
+.nav-menu-contacts:focus {
+    color: var(--pressed-state-color);
+}
+.address-menu-list-item {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--body-text-color);
+}
+.address-menu-list-item:hover,
+.address-menu-list-item:focus {
+    color: var(--pressed-state-color);
 }
 .section-studio-1 {
     background-color: var(--primary-black-color);
@@ -146,10 +173,7 @@ header {
     color: var(--primary-white-color);
     background-color: var(--pressed-state-color);
 }
-.nav-menu-contacts:hover,
-.nav-menu-contacts:focus {
-    color: var(--pressed-state-color);
-}
+
 
  .portfolio-job-projects-name {
     font-weight: 500;
