@@ -136,7 +136,6 @@ header {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.portfolio-buttons-first,
 .portfolio-button-item {
     font-family: var(--primary-font);
     background-color: var(--cloud);
@@ -147,8 +146,8 @@ header {
     line-height: 1.5;
     cursor: pointer;
 }
-.portfolio-buttons-first:hover,
-.portfolio-buttons-first:focus {
+.portfolio-buttons-item:hover,
+.portfolio-buttons-item:focus {
     color: var(--primary-white-color);
     background-color: var(--pressed-state-color);
 }
@@ -182,4 +181,6 @@ header {
 }
 .footer-text {
     color: var(--cloud);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
