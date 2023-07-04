@@ -34,9 +34,9 @@ body {
     background-color: var(--primary-white-color);
 }
   
-/* a {
+a {
     text-decoration: none;
-} */
+}
 address {
     font-style: normal;
 }
