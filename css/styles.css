@@ -15,7 +15,7 @@
     --cloud: #F4F4FD;
 }
 
-h2 {
+/* h2 {
     color: var(--primary-black-color);
     text-align: center;
     font-size: 36px;
@@ -23,7 +23,7 @@ h2 {
     line-height: 40px;
     letter-spacing: 0.72px;
     text-transform: capitalize;
-}
+} */
 
 ul {
     list-style-type: none;
@@ -136,6 +136,9 @@ header {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.team-photo {
+    background-color: var(--primary-white-color);
+}
 .portfolio-button-item {
     font-family: var(--primary-font);
     background-color: var(--cloud);
@@ -146,8 +149,8 @@ header {
     line-height: 1.5;
     cursor: pointer;
 }
-.portfolio-buttons-item:hover,
-.portfolio-buttons-item:focus {
+.portfolio-button-item:hover,
+.portfolio-button-item:focus {
     color: var(--primary-white-color);
     background-color: var(--pressed-state-color);
 }
